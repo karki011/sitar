@@ -5,4 +5,10 @@ angular.module('Sitar', ['ngRoute', 'ngResource'])
             .when('/', {
                 templateUrl: 'views/home.html',
             })
+            .when('/about', {
+                templateUrl: 'views/about.html'
+            })
+             .otherwise({
+            redirectTo: '/'
+        });
     }])
