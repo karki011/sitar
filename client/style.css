@@ -1,0 +1,21 @@
+.wrapper{
+    margin: 0 auto;
+    height: 100px;
+    background: #eee;
+    width: 100%;
+    float: left
+}
+nav ul li{
+    display: inline;
+    padding: 2em;
+    text-align: center;
+}
+.wrapper .topnav{
+    background-color: darkred;
+    padding: 2em;
+    width: 100%;
+}
+nav ul li a{
+    padding: 
+
+}
